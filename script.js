@@ -19,6 +19,14 @@ document.addEventListener('DOMContentLoaded', function() {
             } else if (value === 'C') {
                 currentInput = '';
                 display.value = '0';
+            } else if (value === '⌫') { // Delete button
+                currentInput = currentInput.trim();
+                if (currentInput.endsWith(' ')) {
+                    currentInput = currentInput.slice(0, -3);
+                } else {
+                    currentInput = currentInput.slice(0, -1);
+                }
+                display.value = currentInput || '0';
             }
         });
     });
