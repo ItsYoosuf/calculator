@@ -65,15 +65,27 @@ button:nth-child(16):active {
 }
 
 button:nth-child(17) {
-    grid-column: span 4;
-    background-color: #ff3b30;
+    grid-column: span 3;
+    background-color: #388E3C;
     color: #fff;
 }
 
 button:nth-child(17):hover {
-    background-color: #e02b20;
+    background-color: #2E7D32;
 }
 
 button:nth-child(17):active {
-    background-color: #c01b10;
+    background-color: #1B5E20;
+}
+button:nth-child(18) {
+    background-color: #D32F2F;
+    color: #fff;
+}
+
+button:nth-child(18):hover {
+    background-color: #C62828;
+}
+
+button:nth-child(18):active {
+    background-color: #B71C1C;
 }
